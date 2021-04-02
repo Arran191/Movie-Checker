@@ -20,7 +20,7 @@ def find_platform(url):
 def check_movie(query):
     query = query.replace(' ', '+')
     URL = f"https://google.com/search?q={query}"
-    #print("Checking: " + URL)
+    # print("Checking: " + URL)
 
     USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:65.0) Gecko/20100101 Firefox/65.0"
     headers = {"user-agent": USER_AGENT}
@@ -57,18 +57,18 @@ def main(query, readcsv, isolate):
     else:
         linkResults = check_movie(query)
         platform = find_platform(linkResults)
-        print(f"{movie} can be viewed on {platform}")
+        print(f"'{query}' can be viewed on {platform.upper()}")
 
-    #print("Link found: " + str(linkResults))
+        # print("Link found: " + str(linkResults))
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        '-csv', help='Pass in bool value if you want to read the csv', type=bool, required=True)
+        '-csv', help='Pass in bool value if you want to read the csv', type=bool, default=False)
     parser.add_argument(
         '-q', help='The search term to query if you are not reading from the CSV', default="")
     parser.add_argument(
-        '-o', help='Only show movies that have changed.', type=bool, required=True)
+        '-o', help='Only show movies that have changed.', type=bool, default=False)
     args = parser.parse_args()
     main(args.q, args.csv, args.o)
