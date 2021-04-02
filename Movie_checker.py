@@ -34,10 +34,7 @@ def check_movie(query):
         if anchors:
             link = anchors[0]['href']
             # print(link)
-
     return link
-
-# Compare against orgional and see if changed
 
 
 def check_csv_list(compare=False):
@@ -49,14 +46,14 @@ def check_csv_list(compare=False):
         if str(df.Location[index]).lower() != platform:
             print(
                 f"{movie} has changed from {df.Location[index]} to {platform}")
-        else:
+
+        if compare == False:
             print(f"{movie} can be viewed on {platform}")
 
 
-def main(query, readcsv):
-    if readcsv == "true":
-        check_csv_list()
-
+def main(query, readcsv, isolate):
+    if readcsv == True:
+        check_csv_list(isolate)
     else:
         linkResults = check_movie(query)
         platform = find_platform(linkResults)
@@ -67,7 +64,11 @@ def main(query, readcsv):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('query', help='The search term to query')
-    parser.add_argument('readcsv', help='If you read CSV then')
+    parser.add_argument(
+        '-csv', help='Pass in bool value if you want to read the csv', type=bool, required=True)
+    parser.add_argument(
+        '-q', help='The search term to query if you are not reading from the CSV', default="")
+    parser.add_argument(
+        '-o', help='Only show movies that have changed.', type=bool, required=True)
     args = parser.parse_args()
-    main(args.query, args.readcsv)
+    main(args.q, args.csv, args.o)
