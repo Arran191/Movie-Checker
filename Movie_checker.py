@@ -8,13 +8,13 @@ import pandas as pd
 
 
 def find_platform(url):
-    platforms = ["netflix", "disneyplus", "amazon", "youtube"]
+    platforms = ["netflix", "disneyplus", "amazon"]
     results = [element for element in platforms if (element in url)]
-    # print(results)
+
     if results:
         return results[0]
     else:
-        return "No results"
+        return "paid"
 
 
 def check_movie(query):
@@ -34,7 +34,8 @@ def check_movie(query):
         if anchors:
             link = anchors[0]['href']
             # print(link)
-    return link
+            return link
+    return "No results"
 
 
 def check_csv_list(compare=False):
@@ -43,12 +44,14 @@ def check_csv_list(compare=False):
         linkResults = check_movie(movie)
         platform = find_platform(linkResults)
 
+        if compare == False:
+            print(f"{movie} can be viewed on {platform}\n")
+            
         if str(df.Location[index]).lower() != platform:
             print(
                 f"{movie} has changed from {df.Location[index]} to {platform}")
 
-        if compare == False:
-            print(f"{movie} can be viewed on {platform}")
+
 
 
 def main(query, readcsv, isolate):
@@ -65,7 +68,7 @@ def main(query, readcsv, isolate):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        '-csv', help='Pass in bool value if you want to read the csv', type=bool, default=False)
+        '-csv', help='Pass in bool value if you want to read the csv', type=bool, default=True)
     parser.add_argument(
         '-q', help='The search term to query if you are not reading from the CSV', default="")
     parser.add_argument(
