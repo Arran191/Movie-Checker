@@ -1,3 +1,4 @@
+
 import sys
 import urllib
 import argparse
@@ -6,6 +7,19 @@ import requests
 from bs4 import BeautifulSoup
 import csv
 import pandas as pd
+
+
+def printProgressBar(iteration, total, prefix='', suffix='', decimals=1, length=100, fill='█', printEnd="\r"):
+
+    percent = ("{0:." + str(decimals) + "f}").format(100 *
+                                                     (iteration / float(total)))
+    filledLength = int(length * iteration // total)
+    bar = fill * filledLength + '-' * (length - filledLength)
+    print(
+        f'\033[0;37;40m \r{prefix} |{bar}|{percent}% {suffix}', end=printEnd)
+    # Print New Line on Complete
+    if iteration == total:
+        print()
 
 
 def find_platform(url):
@@ -60,8 +74,11 @@ def check_movie(query, year="movie"):
 
 def check_csv_list(compare=False, ignore=False):
     df = pd.read_csv('WatchingList.csv')
-    for index, movie in df.Name.iteritems():
+    l = len(df)
 
+    for index, movie in df.Name.iteritems():
+        printProgressBar(index + 1, l, prefix='Progress:',
+                         suffix='Complete', length=50)
         # Ignore the movie if already watched.
         if df.Status[index] == "Complete" or df.Location[index] == "Shudder" or df.Location[index] == "Tom-Paid":
             continue
@@ -72,21 +89,21 @@ def check_csv_list(compare=False, ignore=False):
 
         if compare == False:
             print(
-                f"\033[0;37;40m {movie} can be viewed on {platform.upper()}")
+                f"\033[0;37;40m {movie} can be viewed on {platform.upper()}--------------------\r")
 
         if str(df.Location[index]).lower() != platform:
             if platform == "no results" and ignore == False:
                 print(
-                    f"\033[0;37;40m {movie} {year} has {platform.upper()}")
-            else:
+                    f"\033[0;37;40m {movie} {year} has {platform.upper()}----------------------\r")
+            elif platform != "no results":
                 print(
-                    f"\033[1;32;40m  {movie} {year} has changed from {df.Location[index]} to {platform.upper()}")
+                    f"\033[1;32;40m {movie} {year} has changed from {df.Location[index]} to {platform.upper()}\r ")
 
 
 def main(query, readcsv, isolate, ignore):
 
     if readcsv == True:
-        check_csv_list(isolate)
+        check_csv_list(isolate, ignore)
     else:
         linkResults = check_movie(query)
         platform = find_platform(linkResults)

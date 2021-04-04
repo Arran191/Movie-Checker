@@ -29,8 +29,18 @@ Pass in `-o True` to determine if the location of a movie has changed from what 
 
 `python Movie_checker -o True`
 
+### Ignore no results
+
+Pass in `i True` to ignore "no results" returns
+
+`python Movie_checker -o True -i True`
+
 #### To do
 
 - Edit CSV to change the location of the movie.
 - Add handle for if location is null
 - Refactor messy code.
+
+#### Ref
+
+- https://stackoverflow.com/questions/3173320/text-progress-bar-in-the-console
