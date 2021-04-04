@@ -21,7 +21,7 @@ This will check what platforms the movies in the `WatchingList.csv` are on. If '
 
 To run against a generic movie search, pass in `-q "move_name`
 
-`python Movie_Checker -csv False -q "The 13th Warrior"`
+`python Movie_Checker -q "The 13th Warrior" -csv False`
 
 ### Check for changes
 
@@ -33,3 +33,4 @@ Pass in `-o True` to determine if the location of a movie has changed from what 
 
 - Edit CSV to change the location of the movie.
 - Add handle for if location is null
+- Refactor messy code.

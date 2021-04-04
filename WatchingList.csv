@@ -1,10 +1,162 @@
-﻿Name,Type,Status,Genre,Watch date,Location
-Deep Rising,Good Movie,Complete,Horror/Action,"Nov 6, 2020",Paid
-Left behind,Bad_Movie,Complete,Thriller/Action,"Nov 6, 2020",Netflix
-Shutter Island,Bad_Movie,Complete,Thriller/Mystery,"Mar 5, 2021",Netflix
-Doom Movie,Bad_Movie,Complete,Horror,"Nov 20, 2020",Netflix
-Ghosts of War,Medium Movie,Complete,Horror/War,"Jan 22, 2021",Netflix
-The Dictator,Medium Movie,Complete,Comedy/Dark comedy,"Mar 12, 2021",Netflix
-Friday the 13th,Bad_Movie,Complete,Horror,"Nov 13, 2020",Netflix
-The Thing 2011,Bad_Movie,,,,Paid
-Dragon Heart,Good Movie,Complete,Fantasy/Adventure,"Jan 22, 2021",Prime
+﻿Name,Type,Status,Genre,Score,Watch date,Location,Year
+Deep Rising,Good Movie,Complete,Horror/Action,⭐️⭐️⭐️,"Nov 6, 2020",Disney+,
+Left behind,Bad_Movie,Complete,Thriller/Action,⭐️⭐️,"Nov 6, 2020",Netflix,
+Shutter Island,Bad_Movie,Complete,Thriller/Mystery,⭐️⭐️,"Mar 5, 2021",Netflix,
+Doom Movie,Bad_Movie,Complete,Horror,⭐️⭐️,"Nov 20, 2020",Netflix,
+Ghosts of War,Medium Movie,Complete,Horror/War,⭐️⭐️⭐️,"Jan 22, 2021",Netflix,
+The Dictator,Medium Movie,Complete,Comedy/Dark comedy,⭐️⭐️⭐️,"Mar 12, 2021",Netflix,
+Friday the 13th,Bad_Movie,Complete,Horror,⭐️⭐️,"Nov 13, 2020",Netflix,
+Would you Rather,Bad_Movie,Complete,Horror/Thriller,⭐️⭐️,"Jan 8, 2021",Netflix,
+The Baby sitter,Bad_Movie,,,,,Netflix,2017
+Godzilla 1998,Bad_Movie,Complete,Sci-fi/Action,⭐️⭐️⭐️,"Jan 2, 2021",Netflix,
+Deathnote Movie,Bad_Movie,,,,,Netflix,2006
+Unfriended - Dark Web,Bad_Movie,,,,,Paid,2018
+Anaconda,Bad_Movie,Complete,Horror/Thriller,⭐️⭐️,"Jan 23, 2021",Netflix,
+The Thing,Bad_Movie,,,,,Paid,2011
+Battlefield Earth,Bad_Movie,,Sci-fi/Action,,,Paid,2000
+Indiana Jones and the Kingdom of the Crystal Skull,Bad_Movie,,Adventure/Action,,,Paid,2008
+Doomsday,Medium Movie,Complete,Sci-fi/Action,⭐️⭐️⭐️,"Dec 11, 2020",Netflix,
+In the Name of the King,Bad_Movie,Complete,Fantasy/Adventure,⭐️⭐️,"Dec 4, 2020",Netflix,
+Catwoman,Bad_Movie,,,,,Paid,2004
+Jaws 3,Bad_Movie,,,,,Paid,1983
+Jaws 4,Bad_Movie,,,,,Paid,1987
+Donkey Punch,Bad_Movie,,,,,Paid,2008
+Slenderman,Bad_Movie,,,,,Paid,2018
+Resident Evil,Bad_Movie,,,,,Paid,2002
+The Dungons and Dragons movie,Bad_Movie,,,,,Paid,2000
+The Room,Bad_Movie,,,,,Paid,2003
+The young Cannibals,Bad_Movie,,,,,Prime,2019
+LLLLAMAGEDDDDIN,Bad_Movie,,,,,Prime,2015
+The Happening,Bad_Movie,Complete,"A big mess, Thriller/Sci-fi",⭐️,"Mar 26, 2021",Disney+,
+Blades of Glory,Good Movie,Complete,Comedy/Sport,⭐️⭐️⭐️⭐️⭐️,"Mar 5, 2021",Netflix,
+Goon,Good Movie,,,,,Netflix,2011
+Overlord,Good Movie,Complete,Horror/War,⭐️⭐️⭐️⭐️⭐️,"Feb 27, 2021",Netflix,
+Van Helsing 2004,Good Movie,Complete,Horror/Action,⭐️⭐️⭐️⭐️,"Feb 26, 2021",Netflix,
+The Last Samurai,Good Movie,,,,,Netflix,2003
+Bright,Good Movie,Complete,Action/Fantasy,⭐️⭐️⭐️⭐️,"Mar 26, 2021",Netflix,
+The SpongeBob SquarePants movie,Good Movie,,,,,Netflix,2004
+Indiana Jones and the Last crusade,Good Movie,,Adventure/Action,,,Paid,1989
+Indiana Jones and the Temple of doom,Good Movie,,Adventure/Action,,,Paid,1984
+Indiana Jones Raider of the Lost ark,Good Movie,,,,,Paid,1981
+Terminator 2,Good Movie,,,,,Paid,1991
+The Knights tale,Good Movie,Complete,Adventure/Action,⭐️⭐️⭐️⭐️⭐️,"Feb 19, 2021",Prime,
+The Gremlins,Good Movie,,,,,Paid,1984
+Dragon Heart,Good Movie,Complete,Fantasy/Adventure,⭐️⭐️⭐️⭐️,"Jan 22, 2021",Prime,
+Train to Busan,Good Movie,,Horror/Action,,,Paid,2016
+Hot Fuzz,Good Movie,,,,,Netflix,2007
+The Nice Guys,Good Movie,Complete,Comedy,⭐️⭐️⭐️⭐️⭐️,"Nov 27, 2020",Paid,
+The Thing ,Good Movie,,,,,Paid,1982
+Death Watch,Good Movie,,Horror,,,Paid,2002
+Small Soldiers,Good Movie,,,,,Paid,1998
+Underworld 1,Good Movie,Complete,Horror/Action,⭐️⭐️⭐️⭐️,"Nov 20, 2020",Prime,
+Face/Off,Good Movie,,,,,Paid,1997
+Jaws 1,Good Movie,,,,,Paid,1975
+Jaws 2,Good Movie,,,,,Paid,1978
+The Fifth element,Good Movie,Complete,,⭐️⭐️⭐️⭐️,"Mar 6, 2021",Paid,
+Dracula ,Good Movie,,,,,Paid,1992
+TombStone,Good Movie,Complete,Western/Action,⭐️⭐️⭐️⭐️,"Mar 6, 2021",Disney+,
+Naked Gun,Good Movie,,,,,Paid,1988
+Dog Soldiers,Good Movie,Complete,Horror/Action,⭐️⭐️⭐️⭐️,"Dec 4, 2020",Paid,
+They Live,Good Movie,Complete,,⭐️⭐️⭐️⭐️,"Apr 3, 2021",Netflix,
+Harry Potter 1,Good Movie,,,,,Paid,2001
+Harry Potter 2,Good Movie,,,,,Paid,2002
+Harry Potter 3,Good Movie,,,,,Paid,2004
+Harry Potter 4,Good Movie,,,,,Paid,2005
+Cats and Dogs,Good Movie,,,,,Netflix,2001
+Snatch,Good Movie,,Comedy/Crime,,,Netflix,2000
+Black Dynamite,Good Movie,,Comedy/Action,,,Prime,2009
+Underworld 3,Good Movie,,,,,Prime,2009
+The Mask of Zorro,Good Movie,Complete,Adventure/Western,⭐️⭐️⭐️⭐️,"Mar 19, 2021",Prime,
+Dead Snow,Good Movie,,Horror/Comedy,,,Prime,2009
+The 13th Warror,Good Movie,Complete,,⭐️⭐️⭐️⭐️,"Apr 3, 2021",Disney+,
+Starship Troopers,Good Movie,,,,,Disney+,1997
+Commando,Good Movie,,Action/Thriller,,,Disney+,1985
+Rec,Good Movie,,,,,Shudder,2007
+The Lord of the Rings: The Fellowship of the Ring,Good Movie,,A big mess,⭐️,,Tom-Paid,2001
+The Lord of the Rings: The Two Towers,Good Movie,,A big mess,⭐️,,Tom-Paid,2002
+The Lord of the Rings: The Return of the King,Good Movie,,A big mess,⭐️,,Tom-Paid,2003
+Blade: Trinity,Medium Movie,,,,,Netflix,2004
+Eurovision Song Contest: The Story of Fire Saga,Medium Movie,,,,,Netflix,2020
+Harry Potter 5,Medium Movie,,,,,Paid,2007
+Harry Potter 6,Medium Movie,,,,,Paid,2009
+Harry Potter 7 part 2,Medium Movie,,,,,Paid,2011
+Harry Potter 7 part 1,Medium Movie,,,,,Paid,2010
+Dredd,Good Movie,Complete,Sci-fi/Action,⭐️⭐️⭐️⭐️,"Jan 15, 2021",Netflix,
+The Purge,Medium Movie,,,,,Paid,2013
+The Blair Witch Project 1999,Bad_Movie,Complete,"A big mess, Horror/Indie film",⭐️,"Feb 5, 2021",Prime,
+Speed,Medium Movie,,,,,Paid,1994
+Reign of Fire,Medium Movie,,,,,Paid,2002
+Blade,Medium Movie,,,,,Paid,1998
+Death Race,Medium Movie,,,,,Paid,2008
+Black Sheep,Medium Movie,,,,,Prime,2006
+Dead Silence,Medium Movie,,,,,Prime,2007
+Blade II,Medium Movie,,,,,Prime,2002
+Underworld 2,Medium Movie,Complete,,⭐️⭐️⭐️,"Apr 3, 2021",Prime,
+Idiocracy,Medium Movie,,Comedy/Sci-fi,,,Disney+,2006
+Lara Croft - Tomb raider,Medium Movie,,,,,Iplayer,2001
+Unfriended,Bad_Movie,Complete,"A big mess, Horror/Thriller",⭐️,"Nov 27, 2020",Netflix,
+The Spongebob Movie - Sponge on the Run,To be decided,,,,,Netflix,2020
+Ready Player One,Medium Movie,Complete,Sci-fi/Adventure,⭐️⭐️⭐️⭐️,"Jan 2, 2021",Netflix,
+Ex_Machina,Good Movie,Complete,Sci-fi/Thriller,⭐️⭐️⭐️⭐️,"Feb 26, 2021",Prime,
+GroundHog day,Good Movie,Complete,Comedy/Romance,⭐️⭐️⭐️⭐️,"Mar 19, 2021",Prime,
+Game Night,Good Movie,Complete,Comedy/Action,⭐️⭐️⭐️⭐️⭐️,"Jan 29, 2021",Netflix,
+Knives Out,Good Movie,Complete,Comedy Suspense,⭐️⭐️⭐️⭐️⭐️,"Nov 14, 2020",Prime,
+Star Wars Rise of Skywalker,Medium Movie,Complete,Sci-fi/Action,⭐️⭐️,"Dec 25, 2020",Disney+,
+Solo Movie,Good Movie,Complete,Sci-fi/Action,⭐️⭐️⭐️⭐️,"Dec 25, 2020",Disney+,
+White Chicks,Medium Movie,Complete,Comedy/Crime,⭐️⭐️⭐️,"Jan 15, 2021",Netflix,
+Shaolin Soccer,To be decided,,,,,Paid,2001
+The Mummy 1932,To be decided,,,,,Paid,1932
+The Mummy: Tomb of the Dragon Emperor,To be decided,,Action/Fantasy,,,Paid,2008
+Young Frankenstein,To be decided,,,,,Paid,1974
+Blazen Saddles,To be decided,,,,,Paid,1974
+Beowulf,To be decided,,,,,Paid,2007
+Willy's Wonderland,To be decided,,,,,Paid,2021
+Krull,To be decided,,,,,Paid,1983
+Sonic the Hedgehog,To be decided,,Family/Comedy,,,Paid,2020
+Around the world in 80 days,To be decided,,,,,Netflix,2004
+Big Stan,To be decided,,,,,Netflix,2007
+The Mummy,To be decided,,,,,Prime,1959
+Underworld 4,To be decided,,,,,Prime,2011
+Underwolrd 5,To be decided,,,,,Prime,2012
+Underworld 6,To be decided,,,,,Prime,2016
+The Princess Bride,Good Movie,Complete,Adventure/Romance,⭐️⭐️⭐️⭐️,"Feb 5, 2021",Prime,
+Cluedo Movie,Good Movie,Complete,Mystery/Crime,⭐️⭐️⭐️⭐️⭐️,"Feb 12, 2021",Prime,
+Dune,Medium Movie,Complete,Sci-fi/Action,⭐️⭐️⭐️,"Feb 6, 2021",Prime,
+Shark Attack 3,To be decided,,,,,Prime,2002
+Dark Tide,To be decided,,,,,Prime,2012
+Bill & Ted's Bogus Journey,To be decided,,,,,Prime,1991
+Redline,To be decided,,,,,Prime,2009
+Help I'm a fish,To be decided,,,,,Prime,2000
+The Founder,To be decided,,,,,Prime,2016
+Point Break,To be decided,,Action/Thriller,,,Prime,1991
+Wrong Turn,To be decided,,Horror/Thriller,,,Prime,2001
+Con Air,To be decided,,,,,Disney+,1997
+Grosse Pointe Blank,Good Movie,Complete,Romance/Comedy,⭐️⭐️⭐️⭐️,"Mar 20, 2021",Disney+,
+Jennifer's body,To be decided,,Horror/Comedy,,,Disney+,2009
+The Fly,To be decided,,Horror/Sci-fi,,,Disney+,1986
+Avatar,To be decided,,Sci-fi/Action,,,Disney+,2009
+The Mortuary Collection,To be decided,,Horror,,,Shudder,2019
+The Beastmaster,To be decided,,,,,Prime,1982
+Stir Crazy,Medium Movie,Complete,Comedy/Prison,⭐️⭐️⭐️,"Feb 19, 2021",Netflix,
+Next,Bad_Movie,Complete,"A big mess, Sci-fi/Action",⭐️,"Feb 12, 2021",Netflix,
+Assassin Creed,Bad_Movie,Complete,Sci-fi/Action,⭐️⭐️,"Jan 29, 2021",Netflix,
+Conan the Barbarian,Good Movie,Complete,Adventure/Action,⭐️⭐️⭐️⭐️⭐️,"Oct 8, 2020",Disney+,
+"10,000 BC",Medium Movie,Complete,Adventure/Action,⭐️⭐️⭐️⭐️,"Oct 16, 2020",Netflix,
+Balls of Fury,Good Movie,Complete,Comedy/Sport,⭐️⭐️⭐️⭐️⭐️,"Oct 23, 2020",Prime,
+Big trouble in little China,Good Movie,Complete,Action/Fantasy,⭐️⭐️⭐️⭐️,"Oct 16, 2020",Paid,
+Centurion,Good Movie,Complete,Action/War,⭐️⭐️⭐️⭐️,"Oct 23, 2020",Netflix,
+Quarantine,Bad_Movie,Complete,"A big mess, Horror",⭐️,"Oct 30, 2020",Netflix,
+The Mummy 1999,Good Movie,Complete,Adventure/Action,⭐️⭐️⭐️⭐️⭐️,"Oct 30, 2020",Paid,
+The Mummy Returns,Good Movie,Complete,Adventure/Action,⭐️⭐️⭐️⭐️,"Oct 31, 2020",Paid,
+Tour de Pharmacy,Medium Movie,Complete,Comedy,⭐️⭐️⭐️,"Oct 30, 2020",Paid,
+Scary stories to tell in the dark,Medium Movie,Complete,Horror,⭐️⭐️⭐️,"Dec 11, 2020",Prime,
+Galaxy Quest,Good Movie,Complete,Sci-fi/Comedy,⭐️⭐️⭐️⭐️⭐️,"Dec 11, 2020",Netflix,
+Bad moms at Christmas,Bad_Movie,Complete,"A big mess, Comedy/Action",⭐️,"Dec 18, 2020",Netflix,
+Die Hard 2,Medium Movie,Complete,Action/Thriller,⭐️⭐️⭐️,"Dec 18, 2020",Netflix,
+"See no evil, Hear no evil",Good Movie,Complete,Comedy/Thriller,⭐️⭐️⭐️⭐️⭐️,"Jan 9, 2021",Netflix,
+Dog House,To be decided,,Horror/Comedy,,,Paid,2009
+The Sorcerer's Apprentice,Medium Movie,Complete,Fantasy/Adventure,⭐️⭐️⭐️,"Mar 12, 2021",Disney+,
+Iron Sky: 2,Medium Movie,Complete,Sci-fi/Action,⭐️⭐️⭐️,"Mar 9, 2021",Prime,
+Bedazzled,To be decided,,,,,Prime,2000
+Drive Angry,To be decided,,Action/Thriller,,,Prime,2011
+Magnificent Seven,To be decided,,,,,Prime,1960
