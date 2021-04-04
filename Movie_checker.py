@@ -6,7 +6,6 @@ import requests
 from bs4 import BeautifulSoup
 import csv
 import pandas as pd
-import os
 
 
 def find_platform(url):
@@ -28,8 +27,10 @@ def find_platform(url):
     else:
         return "no results"
 
+# Default = movie cause if you need to Google for the year, kinda defies the point...
 
-def check_movie(query, year):
+
+def check_movie(query, year="movie"):
     query = query.replace(' ', '+')
     URL = f"https://google.com/search?q={query}+{year}"
     #print("Checking: " + URL)
@@ -57,7 +58,7 @@ def check_movie(query, year):
     return "No results"
 
 
-def check_csv_list(compare=False):
+def check_csv_list(compare=False, ignore=False):
     df = pd.read_csv('WatchingList.csv')
     for index, movie in df.Name.iteritems():
 
@@ -70,18 +71,19 @@ def check_csv_list(compare=False):
         platform = find_platform(linkResults)
 
         if compare == False:
-            print(f"{movie} can be viewed on {platform}")
+            print(
+                f"\033[0;37;40m {movie} can be viewed on {platform.upper()}")
 
         if str(df.Location[index]).lower() != platform:
-            if platform == "no results":
-                print(f"{movie} {year} has {platform}")
+            if platform == "no results" and ignore == False:
+                print(
+                    f"\033[0;37;40m {movie} {year} has {platform.upper()}")
             else:
                 print(
-                    os.system('color 4')
-                    f"{movie} {year} has changed from {df.Location[index]} to {platform}")
+                    f"\033[1;32;40m  {movie} {year} has changed from {df.Location[index]} to {platform.upper()}")
 
 
-def main(query, readcsv, isolate):
+def main(query, readcsv, isolate, ignore):
 
     if readcsv == True:
         check_csv_list(isolate)
@@ -110,6 +112,8 @@ if __name__ == '__main__':
         '-q', help='The search term to query if you are not reading from the CSV', default="")
     parser.add_argument(
         '-o', help='Only show movies that have changed.', type=str2bool, default=False)
+    parser.add_argument(
+        '-i', help='Ignore no results', type=str2bool, default=False)
     args = parser.parse_args()
 
-    main(args.q, args.csv, args.o)
+    main(args.q, args.csv, args.o, args.i)
