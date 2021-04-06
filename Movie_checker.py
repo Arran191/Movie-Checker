@@ -16,7 +16,7 @@ def printProgressBar(iteration, total, prefix='', suffix='', decimals=1, length=
     filledLength = int(length * iteration // total)
     bar = fill * filledLength + '-' * (length - filledLength)
     print(
-        f'\033[0;37;40m \r{prefix} |{bar}|{percent}% {suffix}', end=printEnd)
+        f'\r{prefix} |{bar}|{percent}% {suffix}', end=printEnd)
     # Print New Line on Complete
     if iteration == total:
         print()
@@ -74,11 +74,15 @@ def check_movie(query, year="movie"):
 
 def check_csv_list(compare=False, ignore=False):
     df = pd.read_csv('WatchingList.csv')
-    l = len(df)
+    length = len(df)
 
     for index, movie in df.Name.iteritems():
-        printProgressBar(index + 1, l, prefix='Progress:',
+        filledLength = int(50 * index // length)
+        bar = "-" * filledLength
+        printProgressBar(index + 1, length, prefix='Progress:',
                          suffix='Complete', length=50)
+
+
         # Ignore the movie if already watched.
         if df.Status[index] == "Complete" or df.Location[index] == "Shudder" or df.Location[index] == "Tom-Paid":
             continue
@@ -87,17 +91,17 @@ def check_csv_list(compare=False, ignore=False):
         linkResults = check_movie(movie, year)
         platform = find_platform(linkResults)
 
-        if compare == False:
+        if compare == False and platform != "no results":
             print(
-                f"\033[0;37;40m {movie} can be viewed on {platform.upper()}--------------------\r")
+                f"{movie} can be viewed on {platform.upper()}{bar}\r")
 
         if str(df.Location[index]).lower() != platform:
             if platform == "no results" and ignore == False:
                 print(
-                    f"\033[0;37;40m {movie} {year} has {platform.upper()}----------------------\r")
+                    f"{movie} {year} has {platform.upper()}{bar}\r")
             elif platform != "no results":
                 print(
-                    f"\033[1;32;40m {movie} {year} has changed from {df.Location[index]} to {platform.upper()}\r ")
+                    f"{movie} {year} has changed from {df.Location[index]} to {platform.upper()}{bar}\r ")
 
 
 def main(query, readcsv, isolate, ignore):
