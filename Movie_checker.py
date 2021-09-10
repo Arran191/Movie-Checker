@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 import csv
 import pandas as pd
 from colorama import Fore, Back, Style, init
+from urllib.parse import urlparse
 
 
 def printProgressBar(
@@ -29,33 +30,53 @@ def printProgressBar(
         print()
 
 
+def strip_url(url):
+    domainURL = urlparse(url).netloc
+    domainURL = domainURL.replace('www.', '')
+    #print(domainURL)
+    domainURL = domainURL.split(".",1)
+    #print(test)
+    return domainURL[0]
+    
+
 def find_platform(url):
-    platforms = ["netflix", "disneyplus", "amazon", "youtube", "play.google"]
-    # print("URLS" + url)
-    results = [element for element in platforms if (element in url)]
+    #platforms = ["netflix", "disneyplus", "amazon", "youtube", "play.google", "prime_premium", "bbc", "channel4"]
+    #print("URLS" + url)
+    url = url.lower()
+    
+    if url == "paid" or url == "no results":
+        return url
+    
+    striped_url = str(strip_url(url))
+    #print("Strips" +striped_url + " "+  str(type(striped_url)))
+   
+    if striped_url == 'amazon':
+        return "prime"
+    elif striped_url == "channel4":
+        return "channel 4"
+    elif striped_url == "bbc":
+        return "iplayer"
 
-    if results:
-        if results[0] == "youtube" or results[0] == "play.google":
-            results[0] = "paid"
-        elif results[0] == "amazon":
-            results[0] = "prime"
-        elif results[0] == "disneyplus":
-            results[0] = "disney+"
+    return striped_url
+    #results = [element for element in platforms if (element in url)]
 
-        return results[0]
-    elif url == "paid":
-        return "paid"
-    else:
-        return "no results"
-
-
-# Default = movie cause if you need to Google for the year, kinda defies the point...
-
+def getAmazonPreimum(URL):
+    headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'}
+    resp = requests.get(URL, headers=headers).text 
+    soup = BeautifulSoup(resp, 'lxml') 
+    #print(resp)
+    for g in soup.find_all("div", class_="fOYFme"):
+         anchors = g.find_all("span")
+   
+         print(anchors)
+        # checkPaid = soup.select('.uiBRm')
+        #checkPaid = g.find("div", {"class": "uiBRm"})
+        
 
 def check_movie(query, year="movie"):
     query = query.replace(" ", "+")
     URL = f"https://google.com/search?q={query}+{year}"
-    # print("Checking: " + URL)
+    #print("Checking: " + URL)
 
     USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:65.0) Gecko/20100101 Firefox/65.0"
     headers = {"user-agent": USER_AGENT}
@@ -72,10 +93,20 @@ def check_movie(query, year="movie"):
         if anchors and checkPaid:
             # Checks if it is a premium subscription that prime has. 
             if checkPaid.text.find("Subscription"):
-                # print(f"{query} Paid movie {checkPaid.text}")
+                #print(f"{query} Paid movie {checkPaid.text}")
+                if(checkPaid.text == "Premium subscription"):
+                   getAmazonPreimum(anchors[0]['href'])
+                   print(f"{query} Paid movie {checkPaid.text}")
+                   
+                if checkPaid.text == "Free":
+                    return anchors[0]['href']
+                    # domainURL = urlparse().netloc
+                    # domainURL = domainURL.replace('www.', ' ')
+                    # print(f"{query} from {domainURL}")
+                    # return (domainURL)                             
                 return "paid"
             else:
-                # print(f"{query} Subscribed movie {checkPaid.text}")
+               # print(f"{query} Subscribed movie {checkPaid.text}")
                 return anchors[0]["href"]
 
     return "No results"
@@ -93,7 +124,6 @@ def check_csv_list(compare=False, ignore=False):
         # Ignore the movie if already watched.
         if (
             df.Status[index] == "Complete"
-            or df.Location[index] == "Shudder"
             or df.Location[index] == "Tom-Paid"
         ):
             continue

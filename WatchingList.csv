@@ -1,22 +1,22 @@
 ﻿Name,Type,Status,Genre,Score,Watch date,Location,Year
-Deep Rising,Good Movie,Complete,Horror/Action,⭐️⭐️⭐️,"Nov 6, 2020",Disney+,
-Left behind,Bad_Movie,Complete,Thriller/Action,⭐️⭐️,"Nov 6, 2020",Netflix,
-Shutter Island,Bad_Movie,Complete,Thriller/Mystery,⭐️⭐️,"Mar 5, 2021",Netflix,
-Doom Movie,Bad_Movie,Complete,Horror,⭐️⭐️,"Nov 20, 2020",Netflix,
-Ghosts of War,Medium Movie,Complete,Horror/War,⭐️⭐️⭐️,"Jan 22, 2021",Netflix,
-The Dictator,Medium Movie,Complete,Comedy/Dark comedy,⭐️⭐️⭐️,"Mar 12, 2021",Netflix,
-Friday the 13th,Bad_Movie,Complete,Horror,⭐️⭐️,"Nov 13, 2020",Netflix,
-Would you Rather,Bad_Movie,Complete,Horror/Thriller,⭐️⭐️,"Jan 8, 2021",Netflix,
-The Baby sitter,Bad_Movie,,,,,Netflix,2017
-Godzilla 1998,Bad_Movie,Complete,Sci-fi/Action,⭐️⭐️⭐️,"Jan 2, 2021",Netflix,
-Deathnote Movie,Bad_Movie,,,,,Netflix,2006
+Deep Rising,Good Movie,Complete,Horror/Action,⭐️⭐️⭐️,"November 6, 2020",Disney+,1998
+Left behind,Bad_Movie,Complete,Thriller/Action,⭐️⭐️,"November 6, 2020",Netflix,2014
+Shutter Island,Bad_Movie,Complete,Thriller/Mystery,⭐️⭐️,"March 5, 2021",Netflix,2010
+Doom Movie,Bad_Movie,Complete,Horror,⭐️⭐️,"November 20, 2020",Netflix,2005
+Ghosts of War,Medium Movie,Complete,Horror/War,⭐️⭐️⭐️,"January 22, 2021",Netflix,2020
+The Dictator,Medium Movie,Complete,Comedy/Dark comedy,⭐️⭐️⭐️,"March 12, 2021",Netflix,2012
+Friday the 13th,Bad_Movie,Complete,Horror,⭐️⭐️,"November 13, 2020",Netflix,1980
+Would you Rather,Bad_Movie,Complete,Horror/Thriller,⭐️⭐️,"January 8, 2021",Netflix,2012
+The Baby sitter,Bad_Movie,Complete,Horror/Comedy,⭐️⭐️⭐️,"June 11, 2021",Netflix,2017
+Godzilla 1998,Bad_Movie,Complete,Sci-fi/Action,⭐️⭐️⭐️,"January 2, 2021",Netflix,1998
+Deathnote Movie,Bad_Movie,Complete,A big mess,⭐️,"July 2, 2021",Netflix,2006
 Unfriended - Dark Web,Bad_Movie,,,,,Paid,2018
-Anaconda,Bad_Movie,Complete,Horror/Thriller,⭐️⭐️,"Jan 23, 2021",Netflix,
+Anaconda,Bad_Movie,Complete,Horror/Thriller,⭐️⭐️,"January 23, 2021",Netflix,1997
 The Thing,Bad_Movie,,,,,Paid,2011
 Battlefield Earth,Bad_Movie,,Sci-fi/Action,,,Paid,2000
-Indiana Jones and the Kingdom of the Crystal Skull,Bad_Movie,,Adventure/Action,,,Paid,2008
-Doomsday,Medium Movie,Complete,Sci-fi/Action,⭐️⭐️⭐️,"Dec 11, 2020",Netflix,
-In the Name of the King,Bad_Movie,Complete,Fantasy/Adventure,⭐️⭐️,"Dec 4, 2020",Netflix,
+Indiana Jones and the Kingdom of the Crystal Skull,Bad_Movie,,Adventure/Action,,,Prime,2008
+Doomsday,Medium Movie,Complete,Sci-fi/Action,⭐️⭐️⭐️,"December 11, 2020",Netflix,2008
+In the Name of the King,Bad_Movie,Complete,Fantasy/Adventure,⭐️⭐️,"December 4, 2020",Prime,2006
 Catwoman,Bad_Movie,,,,,Paid,2004
 Jaws 3,Bad_Movie,,,,,Paid,1983
 Jaws 4,Bad_Movie,,,,,Paid,1987
@@ -27,136 +27,201 @@ The Dungons and Dragons movie,Bad_Movie,,,,,Paid,2000
 The Room,Bad_Movie,,,,,Paid,2003
 The young Cannibals,Bad_Movie,,,,,Prime,2019
 LLLLAMAGEDDDDIN,Bad_Movie,,,,,Prime,2015
-The Happening,Bad_Movie,Complete,"A big mess, Thriller/Sci-fi",⭐️,"Mar 26, 2021",Disney+,
-Blades of Glory,Good Movie,Complete,Comedy/Sport,⭐️⭐️⭐️⭐️⭐️,"Mar 5, 2021",Netflix,
-Goon,Good Movie,,,,,Netflix,2011
-Overlord,Good Movie,Complete,Horror/War,⭐️⭐️⭐️⭐️⭐️,"Feb 27, 2021",Netflix,
-Van Helsing 2004,Good Movie,Complete,Horror/Action,⭐️⭐️⭐️⭐️,"Feb 26, 2021",Netflix,
-The Last Samurai,Good Movie,,,,,Netflix,2003
-Bright,Good Movie,Complete,Action/Fantasy,⭐️⭐️⭐️⭐️,"Mar 26, 2021",Netflix,
-The SpongeBob SquarePants movie,Good Movie,,,,,Netflix,2004
-Indiana Jones and the Last crusade,Good Movie,,Adventure/Action,,,Paid,1989
-Indiana Jones and the Temple of doom,Good Movie,,Adventure/Action,,,Paid,1984
-Indiana Jones Raider of the Lost ark,Good Movie,,,,,Paid,1981
+The Happening,Bad_Movie,Complete,"A big mess, Thriller/Sci-fi",⭐️,"March 26, 2021",Disney+,2008
+Blades of Glory,Good Movie,Complete,Comedy/Sport,⭐️⭐️⭐️⭐️⭐️,"March 5, 2021",Netflix,2007
+Goon,Good Movie,,,,,Paid,2011
+Overlord,Good Movie,Complete,Horror/War,⭐️⭐️⭐️⭐️⭐️,"February 27, 2021",Netflix,2018
+Van Helsing 2004,Good Movie,Complete,Horror/Action,⭐️⭐️⭐️⭐️,"February 26, 2021",Netflix,2004
+The Last Samurai,Good Movie,Complete,War/Action,⭐️⭐️⭐️⭐️⭐️,"May 7, 2021",Netflix,2003
+Bright,Good Movie,Complete,Action/Fantasy,⭐️⭐️⭐️⭐️,"March 26, 2021",Netflix,2017
+Indiana Jones and the Last crusade,Good Movie,,Adventure/Action,,,Channel 4,1989
+Indiana Jones and the Temple of doom,Good Movie,,Adventure/Action,,,Channel 4,1984
+Indiana Jones Raider of the Lost ark,Good Movie,,,,,Prime,1981
 Terminator 2,Good Movie,,,,,Paid,1991
-The Knights tale,Good Movie,Complete,Adventure/Action,⭐️⭐️⭐️⭐️⭐️,"Feb 19, 2021",Prime,
+The Knights tale,Good Movie,Complete,Adventure/Action,⭐️⭐️⭐️⭐️⭐️,"February 19, 2021",Prime,2001
 The Gremlins,Good Movie,,,,,Paid,1984
-Dragon Heart,Good Movie,Complete,Fantasy/Adventure,⭐️⭐️⭐️⭐️,"Jan 22, 2021",Prime,
+Dragon Heart,Good Movie,Complete,Fantasy/Adventure,⭐️⭐️⭐️⭐️,"January 22, 2021",Prime,1996
 Train to Busan,Good Movie,,Horror/Action,,,Paid,2016
-Hot Fuzz,Good Movie,,,,,Netflix,2007
-The Nice Guys,Good Movie,Complete,Comedy,⭐️⭐️⭐️⭐️⭐️,"Nov 27, 2020",Paid,
-The Thing ,Good Movie,,,,,Paid,1982
+Hot Fuzz,Good Movie,Complete,Comedy/Action,⭐️⭐️⭐️⭐️,"June 18, 2021",Netflix,2007
+The Nice Guys,Good Movie,Complete,Comedy,⭐️⭐️⭐️⭐️⭐️,"November 27, 2020",Paid,2016
+"The Thing ",Good Movie,,,,,Paid,1982
 Death Watch,Good Movie,,Horror,,,Paid,2002
 Small Soldiers,Good Movie,,,,,Paid,1998
-Underworld 1,Good Movie,Complete,Horror/Action,⭐️⭐️⭐️⭐️,"Nov 20, 2020",Prime,
+Underworld 1,Good Movie,Complete,Horror/Action,⭐️⭐️⭐️⭐️,"November 20, 2020",Prime,2003
 Face/Off,Good Movie,,,,,Paid,1997
-Jaws 1,Good Movie,,,,,Paid,1975
+Jaws 1,Good Movie,Complete,Horror/Adventure,⭐️⭐️⭐️⭐️,"June 4, 2021",Netflix,1975
 Jaws 2,Good Movie,,,,,Paid,1978
-The Fifth element,Good Movie,Complete,,⭐️⭐️⭐️⭐️,"Mar 6, 2021",Paid,
-Dracula ,Good Movie,,,,,Paid,1992
-TombStone,Good Movie,Complete,Western/Action,⭐️⭐️⭐️⭐️,"Mar 6, 2021",Disney+,
+The Fifth element,Good Movie,,Action/Sci-fi,,,Paid,1997
+The Dead don't Die,Medium Movie,Complete,"A big mess, Horror/Comedy",⭐️,"June 25, 2021",Netflix,2019
+"Dracula ",Good Movie,,,,,Paid,1992
+TombStone,Good Movie,Complete,Western/Action,⭐️⭐️⭐️⭐️⭐️,"March 5, 2021",Disney+,1993
 Naked Gun,Good Movie,,,,,Paid,1988
-Dog Soldiers,Good Movie,Complete,Horror/Action,⭐️⭐️⭐️⭐️,"Dec 4, 2020",Paid,
-They Live,Good Movie,Complete,,⭐️⭐️⭐️⭐️,"Apr 3, 2021",Netflix,
+Dog Soldiers,Good Movie,Complete,Horror/Action,⭐️⭐️⭐️⭐️,"December 4, 2020",Paid,2002
+They Live,Good Movie,Complete,Sci-fi/Horror,⭐️⭐️⭐️⭐️,"April 3, 2021",Netflix,1988
 Harry Potter 1,Good Movie,,,,,Paid,2001
 Harry Potter 2,Good Movie,,,,,Paid,2002
 Harry Potter 3,Good Movie,,,,,Paid,2004
 Harry Potter 4,Good Movie,,,,,Paid,2005
 Cats and Dogs,Good Movie,,,,,Netflix,2001
-Snatch,Good Movie,,Comedy/Crime,,,Netflix,2000
-Black Dynamite,Good Movie,,Comedy/Action,,,Prime,2009
-Underworld 3,Good Movie,,,,,Prime,2009
-The Mask of Zorro,Good Movie,Complete,Adventure/Western,⭐️⭐️⭐️⭐️,"Mar 19, 2021",Prime,
-Dead Snow,Good Movie,,Horror/Comedy,,,Prime,2009
-The 13th Warror,Good Movie,Complete,,⭐️⭐️⭐️⭐️,"Apr 3, 2021",Disney+,
-Starship Troopers,Good Movie,,,,,Disney+,1997
-Commando,Good Movie,,Action/Thriller,,,Disney+,1985
+Snatch,Good Movie,Complete,Comedy/Crime,⭐️⭐️⭐️⭐️,"July 30, 2021",Netflix,2000
+Black Dynamite,Good Movie,,Comedy/Action,,,Paid,2009
+Underworld: Rise of the Lycans,Good Movie,Complete,Horror/Action,⭐️⭐️⭐️⭐️,"April 23, 2021",Prime,2009
+The Mask of Zorro,Good Movie,Complete,Adventure/Western,⭐️⭐️⭐️⭐️,"March 19, 2021",Prime,1998
+The 13th Warror,Good Movie,Complete,Action/Adventure,⭐️⭐️⭐️⭐️,"April 3, 2021",Disney+,1999
+Starship Troopers,Good Movie,Complete,Sci-fi/Action,⭐️⭐️⭐️⭐️⭐️,"April 30, 2021",Disney+,1997
+Commando,Good Movie,Complete,Action/Thriller,⭐️⭐️⭐️,"July 2, 2021",Disney+,1985
+Con Air,Good Movie,Complete,Action/Thriller,⭐️⭐️⭐️,"April 23, 2021",Disney+,1997
 Rec,Good Movie,,,,,Shudder,2007
 The Lord of the Rings: The Fellowship of the Ring,Good Movie,,A big mess,⭐️,,Tom-Paid,2001
 The Lord of the Rings: The Two Towers,Good Movie,,A big mess,⭐️,,Tom-Paid,2002
 The Lord of the Rings: The Return of the King,Good Movie,,A big mess,⭐️,,Tom-Paid,2003
-Blade: Trinity,Medium Movie,,,,,Netflix,2004
-Eurovision Song Contest: The Story of Fire Saga,Medium Movie,,,,,Netflix,2020
+Dead Snow,Good Movie,,Horror/Comedy,,,Paid,2009
+Blade: Trinity,Medium Movie,,,,,Paid,2004
+Eurovision Song Contest: The Story of Fire Saga,Medium Movie,,,,,Shudder,2020
 Harry Potter 5,Medium Movie,,,,,Paid,2007
 Harry Potter 6,Medium Movie,,,,,Paid,2009
 Harry Potter 7 part 2,Medium Movie,,,,,Paid,2011
 Harry Potter 7 part 1,Medium Movie,,,,,Paid,2010
-Dredd,Good Movie,Complete,Sci-fi/Action,⭐️⭐️⭐️⭐️,"Jan 15, 2021",Netflix,
-The Purge,Medium Movie,,,,,Paid,2013
-The Blair Witch Project 1999,Bad_Movie,Complete,"A big mess, Horror/Indie film",⭐️,"Feb 5, 2021",Prime,
-Speed,Medium Movie,,,,,Paid,1994
+Dredd,Good Movie,Complete,Sci-fi/Action,⭐️⭐️⭐️⭐️,"January 15, 2021",Netflix,2012
+The Purge,Medium Movie,Complete,Horror/Thriller,⭐️⭐️,"May 21, 2021",Netflix,2013
+The Blair Witch Project 1999,Bad_Movie,Complete,"A big mess, Horror/Indie film",⭐️,"February 5, 2021",Prime,1999
+Speed,Medium Movie,,,,,Prime,1994
 Reign of Fire,Medium Movie,,,,,Paid,2002
 Blade,Medium Movie,,,,,Paid,1998
 Death Race,Medium Movie,,,,,Paid,2008
-Black Sheep,Medium Movie,,,,,Prime,2006
-Dead Silence,Medium Movie,,,,,Prime,2007
-Blade II,Medium Movie,,,,,Prime,2002
-Underworld 2,Medium Movie,Complete,,⭐️⭐️⭐️,"Apr 3, 2021",Prime,
-Idiocracy,Medium Movie,,Comedy/Sci-fi,,,Disney+,2006
+Semi-Pro,Medium Movie,Complete,Comedy/Sport,⭐️⭐️⭐️,"May 28, 2021",Netflix,2008
+Black Sheep,Medium Movie,Complete,Horror/Comedy,⭐️,"April 23, 2021",Prime,2006
+Dead Silence,Medium Movie,Complete,Horror/Thriller,⭐️⭐️⭐️,"August 6, 2021",Netflix,2007
+Blade II,Medium Movie,,,,,Paid,2002
+Underworld 2,Medium Movie,Complete,Action/Horror,⭐️⭐️⭐️,"April 3, 2021",Prime,2006
+Idiocracy,Medium Movie,Complete,Comedy/Sci-fi,⭐️⭐️,"August 27, 2021",Disney+,2006
 Lara Croft - Tomb raider,Medium Movie,,,,,Iplayer,2001
-Unfriended,Bad_Movie,Complete,"A big mess, Horror/Thriller",⭐️,"Nov 27, 2020",Netflix,
-The Spongebob Movie - Sponge on the Run,To be decided,,,,,Netflix,2020
-Ready Player One,Medium Movie,Complete,Sci-fi/Adventure,⭐️⭐️⭐️⭐️,"Jan 2, 2021",Netflix,
-Ex_Machina,Good Movie,Complete,Sci-fi/Thriller,⭐️⭐️⭐️⭐️,"Feb 26, 2021",Prime,
-GroundHog day,Good Movie,Complete,Comedy/Romance,⭐️⭐️⭐️⭐️,"Mar 19, 2021",Prime,
-Game Night,Good Movie,Complete,Comedy/Action,⭐️⭐️⭐️⭐️⭐️,"Jan 29, 2021",Netflix,
-Knives Out,Good Movie,Complete,Comedy Suspense,⭐️⭐️⭐️⭐️⭐️,"Nov 14, 2020",Prime,
-Star Wars Rise of Skywalker,Medium Movie,Complete,Sci-fi/Action,⭐️⭐️,"Dec 25, 2020",Disney+,
-Solo Movie,Good Movie,Complete,Sci-fi/Action,⭐️⭐️⭐️⭐️,"Dec 25, 2020",Disney+,
-White Chicks,Medium Movie,Complete,Comedy/Crime,⭐️⭐️⭐️,"Jan 15, 2021",Netflix,
+Unfriended,Bad_Movie,Complete,"A big mess, Horror/Thriller",⭐️,"November 27, 2020",Netflix,2014
+Ready Player One,Medium Movie,Complete,Sci-fi/Adventure,⭐️⭐️⭐️⭐️,"January 2, 2021",Netflix,2018
+Ex_Machina,Good Movie,Complete,Sci-fi/Thriller,⭐️⭐️⭐️⭐️,"February 26, 2021",Prime,2014
+GroundHog day,Good Movie,Complete,Comedy/Romance,⭐️⭐️⭐️⭐️,"March 19, 2021",Prime,1993
+Game Night,Good Movie,Complete,Comedy/Action,⭐️⭐️⭐️⭐️⭐️,"January 29, 2021",Netflix,2018
+Knives Out,Good Movie,Complete,Comedy Suspense,⭐️⭐️⭐️⭐️⭐️,"November 14, 2020",Prime,2019
+Star Wars Rise of Skywalker,Medium Movie,Complete,Sci-fi/Action,⭐️⭐️,"December 25, 2020",Disney+,2019
+Solo Movie,Good Movie,Complete,Sci-fi/Action,⭐️⭐️⭐️⭐️,"December 25, 2020",Disney+,2018
+White Chicks,Medium Movie,Complete,Comedy/Crime,⭐️⭐️⭐️,"January 15, 2021",Netflix,2004
 Shaolin Soccer,To be decided,,,,,Paid,2001
 The Mummy 1932,To be decided,,,,,Paid,1932
 The Mummy: Tomb of the Dragon Emperor,To be decided,,Action/Fantasy,,,Paid,2008
 Young Frankenstein,To be decided,,,,,Paid,1974
 Blazen Saddles,To be decided,,,,,Paid,1974
 Beowulf,To be decided,,,,,Paid,2007
-Willy's Wonderland,To be decided,,,,,Paid,2021
+Willy's Wonderland,Good Movie,Complete,Horror/Action,⭐️⭐️⭐️⭐️⭐️,"May 7, 2021",Paid,2021
 Krull,To be decided,,,,,Paid,1983
 Sonic the Hedgehog,To be decided,,Family/Comedy,,,Paid,2020
-Around the world in 80 days,To be decided,,,,,Netflix,2004
-Big Stan,To be decided,,,,,Netflix,2007
-The Mummy,To be decided,,,,,Prime,1959
-Underworld 4,To be decided,,,,,Prime,2011
-Underwolrd 5,To be decided,,,,,Prime,2012
-Underworld 6,To be decided,,,,,Prime,2016
-The Princess Bride,Good Movie,Complete,Adventure/Romance,⭐️⭐️⭐️⭐️,"Feb 5, 2021",Prime,
-Cluedo Movie,Good Movie,Complete,Mystery/Crime,⭐️⭐️⭐️⭐️⭐️,"Feb 12, 2021",Prime,
-Dune,Medium Movie,Complete,Sci-fi/Action,⭐️⭐️⭐️,"Feb 6, 2021",Prime,
-Shark Attack 3,To be decided,,,,,Prime,2002
-Dark Tide,To be decided,,,,,Prime,2012
+Around the world in 80 days,Good Movie,Complete,Adventure/Comedy,⭐️⭐️⭐️⭐️,"June 18, 2021",Netflix,2004
+Big Stan,Bad_Movie,Complete,Comedy/Action,⭐️,"April 9, 2021",Netflix,2007
+The Mummy 1959,To be decided,,,,,Paid,1959
+True Grit,Good Movie,Complete,Western/Drama,⭐️⭐️⭐️⭐️,"May 14, 2021",Netflix,2010
+Buster Scruggs,Medium Movie,Complete,Western/Anthology,⭐️⭐️⭐️,"May 7, 2021",Netflix,2018
+Dad's Army,Medium Movie,Complete,Comedy/War,⭐️⭐️⭐️,,Prime,2016
+Underworld: Blood Wars,To be decided,,,,,Netflix,2016
+The Quick and the Dead,Good Movie,Complete,,⭐️⭐️⭐️,"August 20, 2021",Netflix,1995
+The Sisters Brothers,Good Movie,Complete,,⭐️⭐️⭐️⭐️,"September 3, 2021",Netflix,2018
+Underworld: Awakening,To be decided,,,,,Paid,2012
+The Princess Bride,Good Movie,Complete,Adventure/Romance,⭐️⭐️⭐️⭐️,"February 5, 2021",Prime,1987
+Cluedo Movie,Good Movie,Complete,Mystery/Crime,⭐️⭐️⭐️⭐️⭐️,"February 12, 2021",Prime,1985
+Dune,Medium Movie,Complete,Sci-fi/Action,⭐️⭐️⭐️,"February 6, 2021",Prime,1984
+Shark Attack 3,To be decided,,,,,Paid,2002
+Outcast,To be decided,,Action/Adventure,,,Netflix,2014
+BrightBurn,Medium Movie,Complete,Horror/Sci-fi,⭐️⭐️⭐️,"June 25, 2021",Netflix,2019
+Poseidon,Medium Movie,Complete,Adventure/Action,⭐️⭐️,"August 13, 2021",Netflix,2006
+Big lebowski,To be decided,,Comedy/Crime,,,Netflix,1998
+The Babysitter: Killer Queen,Medium Movie,Complete,MAX,⭐️⭐️⭐️,"August 13, 2021",Netflix,2020
+Enter the Warriors gate,To be decided,,Action/Fantasy,,,Netflix,2016
+The Cable Guy,To be decided,,,,,Netflix,
+Dark Tide,To be decided,,,,,Paid,2012
 Bill & Ted's Bogus Journey,To be decided,,,,,Prime,1991
 Redline,To be decided,,,,,Prime,2009
 Help I'm a fish,To be decided,,,,,Prime,2000
 The Founder,To be decided,,,,,Prime,2016
-Point Break,To be decided,,Action/Thriller,,,Prime,1991
+Point Break,Medium Movie,Complete,Action/Thriller,⭐️⭐️⭐️⭐️,"June 4, 2021",Prime,1991
 Wrong Turn,To be decided,,Horror/Thriller,,,Prime,2001
-Con Air,To be decided,,,,,Disney+,1997
-Grosse Pointe Blank,Good Movie,Complete,Romance/Comedy,⭐️⭐️⭐️⭐️,"Mar 20, 2021",Disney+,
-Jennifer's body,To be decided,,Horror/Comedy,,,Disney+,2009
+Grosse Pointe Blank,Good Movie,Complete,Romance/Comedy,⭐️⭐️⭐️⭐️,"March 20, 2021",Disney+,1997
+The Beastmaster,To be decided,,,,,Paid,1982
+Bedazzled,To be decided,,,,,Paid,2000
+Boot Hill,To be decided,,,,,Paid,1969
+Big Jake,Good Movie,Complete,Western/Action/Adventure,⭐️⭐️⭐️⭐️,"June 11, 2021",Prime,1971
+Jennifer's body,Medium Movie,Complete,Horror/Comedy,⭐️⭐️,"April 30, 2021",Disney+,2009
+Rango,To be decided,,,,,Paid,2011
+Outlaws & Angels,To be decided,,,,,Paid,2016
+Outlaws,To be decided,,,,,Prime,2017
+The Fugitive,To be decided,,Action/Thriller,,,Paid,1993
+Geostorm,To be decided,,Action/Sci-fi,,,Paid,2017
+Chappie,To be decided,,Sci-fi/Action,,,Paid,2015
+GhostBusters,Medium Movie,Complete,Comedy/Sci-fi,⭐️⭐️⭐️,"July 9, 2021",Prime,2016
+War of the Worlds,To be decided,,Sci-fi/Action,,,Paid,2005
+Heat director's definitive edition,To be decided,,Crime/Action,,,Prime,1995
+The Wolfman,To be decided,,Horror/Thriller,,,Prime,2010
+Legend,To be decided,,,,,Prime,1985
 The Fly,To be decided,,Horror/Sci-fi,,,Disney+,1986
-Avatar,To be decided,,Sci-fi/Action,,,Disney+,2009
+Avatar,Good Movie,Complete,Sci-fi/Action,⭐️⭐️⭐️⭐️,"July 30, 2021",Disney+,2009
+The League of Extraordinary Gentlemen,Bad_Movie,Complete,Action/Fantasy,⭐️⭐️,"September 3, 2021",Disney+,2003
+Bubble Boy,Good Movie,Complete,Romance/Comedy,⭐️⭐️⭐️⭐️⭐️,"August 20, 2021",Disney+,2001
+The Watch,Good Movie,Complete,Comedy/Sci-fi,⭐️⭐️⭐️⭐️,"July 23, 2021",Disney+,2012
+The Life Aquatic with Steve Zissou,Bad_Movie,Complete,"A big mess, Comedy",⭐️,"August 6, 2021",Disney+,2004
+Sunshine,To be decided,,Sci-fi/Adventure,,,Disney+,2007
+The Thin Red Line,Good Movie,Complete,War/Drama,⭐️⭐️⭐️⭐️,"July 23, 2021",Disney+,1998
+Surrogates,Medium Movie,Complete,Sci-fi/Action,⭐️⭐️⭐️,"June 25, 2021",Disney+,2009
+Battle for Endor,To be decided,,,,,Disney+,1985
 The Mortuary Collection,To be decided,,Horror,,,Shudder,2019
-The Beastmaster,To be decided,,,,,Prime,1982
-Stir Crazy,Medium Movie,Complete,Comedy/Prison,⭐️⭐️⭐️,"Feb 19, 2021",Netflix,
-Next,Bad_Movie,Complete,"A big mess, Sci-fi/Action",⭐️,"Feb 12, 2021",Netflix,
-Assassin Creed,Bad_Movie,Complete,Sci-fi/Action,⭐️⭐️,"Jan 29, 2021",Netflix,
-Conan the Barbarian,Good Movie,Complete,Adventure/Action,⭐️⭐️⭐️⭐️⭐️,"Oct 8, 2020",Disney+,
-"10,000 BC",Medium Movie,Complete,Adventure/Action,⭐️⭐️⭐️⭐️,"Oct 16, 2020",Netflix,
-Balls of Fury,Good Movie,Complete,Comedy/Sport,⭐️⭐️⭐️⭐️⭐️,"Oct 23, 2020",Prime,
-Big trouble in little China,Good Movie,Complete,Action/Fantasy,⭐️⭐️⭐️⭐️,"Oct 16, 2020",Paid,
-Centurion,Good Movie,Complete,Action/War,⭐️⭐️⭐️⭐️,"Oct 23, 2020",Netflix,
-Quarantine,Bad_Movie,Complete,"A big mess, Horror",⭐️,"Oct 30, 2020",Netflix,
-The Mummy 1999,Good Movie,Complete,Adventure/Action,⭐️⭐️⭐️⭐️⭐️,"Oct 30, 2020",Paid,
-The Mummy Returns,Good Movie,Complete,Adventure/Action,⭐️⭐️⭐️⭐️,"Oct 31, 2020",Paid,
-Tour de Pharmacy,Medium Movie,Complete,Comedy,⭐️⭐️⭐️,"Oct 30, 2020",Paid,
-Scary stories to tell in the dark,Medium Movie,Complete,Horror,⭐️⭐️⭐️,"Dec 11, 2020",Prime,
-Galaxy Quest,Good Movie,Complete,Sci-fi/Comedy,⭐️⭐️⭐️⭐️⭐️,"Dec 11, 2020",Netflix,
-Bad moms at Christmas,Bad_Movie,Complete,"A big mess, Comedy/Action",⭐️,"Dec 18, 2020",Netflix,
-Die Hard 2,Medium Movie,Complete,Action/Thriller,⭐️⭐️⭐️,"Dec 18, 2020",Netflix,
-"See no evil, Hear no evil",Good Movie,Complete,Comedy/Thriller,⭐️⭐️⭐️⭐️⭐️,"Jan 9, 2021",Netflix,
+Birdcage,Good Movie,Complete,Comedy/LGBT,⭐️⭐️⭐️⭐️,"April 16, 2021",MGM,1996
+Magnificent Seven,Good Movie,Complete,Western/Thriller,⭐️⭐️⭐️⭐️⭐️,"April 16, 2021",MGM,1960
+Drive Angry,To be decided,,Action/Thriller,,,StarzPlay,2011
+Original Django,To be decided,,,,,Prime,1966
+What we do in the Shadows,To be decided,,Horror/Comedy,,,BFI Player,2014
+Cooties,Medium Movie,Complete,,⭐️⭐️⭐️,"September 3, 2021",Prime,2015
+"The hateful eight ",To be decided,,,,,Paid,2019
+Legend,Good Movie,Complete,,⭐️⭐️⭐️⭐️,"August 27, 2021",Prime,2015
+Blood Red Sky,Medium Movie,Complete,,⭐️⭐️⭐️⭐️,"August 13, 2021",Netflix,2020
+Pandorum,Medium Movie,Complete,Horror/Sci-fi,⭐️⭐️⭐️⭐️,"May 28, 2021",Paid,2009
+Pineapple Express,Medium Movie,Complete,Comedy/Action,⭐️⭐️⭐️⭐️,"June 5, 2021",Netflix,2008
+Silverado,To be decided,,,,,Paid,1985
+Stir Crazy,Medium Movie,Complete,Comedy/Prison,⭐️⭐️⭐️,"February 19, 2021",Netflix,1980
+Next,Bad_Movie,Complete,"A big mess, Sci-fi/Action",⭐️,"February 12, 2021",Netflix,2007
+Assassin Creed,Bad_Movie,Complete,Sci-fi/Action,⭐️⭐️,"January 29, 2021",Netflix,2016
+Conan the Barbarian,Good Movie,Complete,Adventure/Action,⭐️⭐️⭐️⭐️⭐️,"October 8, 2020",Disney+,1982
+"10,000 BC",Medium Movie,Complete,Adventure/Action,⭐️⭐️⭐️⭐️,"October 16, 2020",Netflix,2008
+Big trouble in little China,Good Movie,Complete,Action/Fantasy,⭐️⭐️⭐️⭐️,"October 16, 2020",Paid,1986
+Balls of Fury,Good Movie,Complete,Comedy/Sport,⭐️⭐️⭐️⭐️⭐️,"October 23, 2020",Prime,2007
+Centurion,Good Movie,Complete,Action/War,⭐️⭐️⭐️⭐️,"October 23, 2020",Netflix,2010
+Quarantine,Bad_Movie,Complete,"A big mess, Horror",⭐️,"October 30, 2020",Netflix,2008
+The Mummy 1999,Good Movie,Complete,Adventure/Action,⭐️⭐️⭐️⭐️⭐️,"October 30, 2020",Paid,1999
+The Mummy Returns,Good Movie,Complete,Adventure/Action,⭐️⭐️⭐️⭐️,"October 31, 2020",Paid,2001
+Tour de Pharmacy,Medium Movie,Complete,Comedy,⭐️⭐️⭐️,"October 30, 2020",Paid,2017
+Galaxy Quest,Good Movie,Complete,Sci-fi/Comedy,⭐️⭐️⭐️⭐️⭐️,"December 11, 2020",Netflix,2019
+Scary stories to tell in the dark,Medium Movie,Complete,Horror,⭐️⭐️⭐️,"December 11, 2020",Prime,2019
+Bad moms at Christmas,Bad_Movie,Complete,"A big mess, Comedy/Action",⭐️,"December 18, 2020",Netflix,2017
+Die Hard 2,Medium Movie,Complete,Action/Thriller,⭐️⭐️⭐️,"December 18, 2020",Netflix,1990
+"See no evil, Hear no evil",Good Movie,Complete,Comedy/Thriller,⭐️⭐️⭐️⭐️⭐️,"January 9, 2021",Netflix,1989
 Dog House,To be decided,,Horror/Comedy,,,Paid,2009
-The Sorcerer's Apprentice,Medium Movie,Complete,Fantasy/Adventure,⭐️⭐️⭐️,"Mar 12, 2021",Disney+,
-Iron Sky: 2,Medium Movie,Complete,Sci-fi/Action,⭐️⭐️⭐️,"Mar 9, 2021",Prime,
-Bedazzled,To be decided,,,,,Prime,2000
-Drive Angry,To be decided,,Action/Thriller,,,Prime,2011
-Magnificent Seven,To be decided,,,,,Prime,1960
+The Sorcerer's Apprentice,Medium Movie,Complete,Fantasy/Adventure,⭐️⭐️⭐️,"March 12, 2021",Disney+,2010
+Iron Sky: 2,Medium Movie,Complete,Sci-fi/Action,⭐️⭐️⭐️,"March 9, 2021",Prime,2019
+Jeremiah Johnson,To be decided,,,,,Paid,1972
+"Shrek the musical ",Bad_Movie,Complete,Musical,⭐️⭐️,"April 9, 2021",Netflix,2013
+Stardust,Good Movie,Complete,Fantasy/Adventure,⭐️⭐️⭐️⭐️⭐️,"April 9, 2021",Netflix,2007
+Love And Monsters,Good Movie,Complete,Adventure/Comedy,⭐️⭐️⭐️⭐️⭐️,"May 28, 2021",Netflix,2020
+The Limehouse Golem,To be decided,,Thriller/Horror,,,Paid,2016
+Bone Tomahawk,Good Movie,Complete,Western/Horror,⭐️⭐️⭐️,"April 30, 2021",Prime,2015
+Demolition Man,Good Movie,Complete,Action/Sci-fi,⭐️⭐️⭐️⭐️,"May 14, 2021",Netflix,1993
+The Cabin in the Woods,Good Movie,Complete,Horror/Comedy,⭐️⭐️⭐️⭐️,"May 21, 2021",Netflix,2011
+Rugrats in Paris,Good Movie,,,,,Paid,2000
+Your highness,Good Movie,Complete,Comedy/Fantasy,⭐️⭐️⭐️⭐️,"May 15, 2021",Prime,2011
+Army of the Dead,Medium Movie,Complete,Horror/Action,⭐️⭐️⭐️,"May 21, 2021",Netflix,2021
+John Carter,Good Movie,Complete,Sci-fi/Action,⭐️⭐️⭐️⭐️⭐️,"June 11, 2021",Disney+,2012
+Dracula Untold,Good Movie,Complete,Horror/Action,⭐️⭐️⭐️⭐️,"June 18, 2021",Netflix,2014
+WALL-E,Good Movie,Complete,Family/Comedy,⭐️⭐️⭐️⭐️⭐️,"July 2, 2021",Disney+,2008
+Caravan of Courage: An Ewok Adventure,Medium Movie,Complete,Fantasy/Sci-fi,⭐️⭐️,"July 9, 2021",Disney+,
+Blood Diamond,Good Movie,Complete,,⭐️⭐️⭐️⭐️⭐️,"July 16, 2021",Prime,2006
+District 9,Medium Movie,Complete,Sci-fi/Action,⭐️⭐️⭐️⭐️,"July 16, 2021",Netflix,2009
+Enders Game,Medium Movie,Complete,Sci-fi/Action,⭐️⭐️⭐️,"July 9, 2021",Netflix,2013
+Epic Movie,Bad_Movie,Complete,,⭐️⭐️,"July 16, 2021",Netflix,2007
+Dad's Army,Medium Movie,Complete,,⭐️⭐️⭐️,"July 23, 2021",Netflix,2016
+Cockneys vs Zombies,Medium Movie,Complete,Horror/Comedy,⭐️⭐️⭐️,"July 30, 2021",Netflix,2012
+The Tomorrow War,Good Movie,Complete,,⭐️⭐️⭐️⭐️,"August 27, 2021",Prime,
+Aliens,Good Movie,Complete,,⭐️⭐️⭐️⭐️,"August 20, 2021",Disney+,
