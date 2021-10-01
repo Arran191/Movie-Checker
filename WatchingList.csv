@@ -34,9 +34,11 @@ Overlord,Good Movie,Complete,Horror/War,⭐️⭐️⭐️⭐️⭐️,"February
 Van Helsing 2004,Good Movie,Complete,Horror/Action,⭐️⭐️⭐️⭐️,"February 26, 2021",Netflix,2004
 The Last Samurai,Good Movie,Complete,War/Action,⭐️⭐️⭐️⭐️⭐️,"May 7, 2021",Netflix,2003
 Bright,Good Movie,Complete,Action/Fantasy,⭐️⭐️⭐️⭐️,"March 26, 2021",Netflix,2017
+Cats and Dogs,Good Movie,,,,,Netflix,2001
+Indiana Jones Raider of the Lost ark,Good Movie,,,,,Prime,1981
+Rec,Good Movie,,,,,Shudder,2007
 Indiana Jones and the Last crusade,Good Movie,,Adventure/Action,,,Channel 4,1989
 Indiana Jones and the Temple of doom,Good Movie,,Adventure/Action,,,Channel 4,1984
-Indiana Jones Raider of the Lost ark,Good Movie,,,,,Prime,1981
 Terminator 2,Good Movie,,,,,Paid,1991
 The Knights tale,Good Movie,Complete,Adventure/Action,⭐️⭐️⭐️⭐️⭐️,"February 19, 2021",Prime,2001
 The Gremlins,Good Movie,,,,,Paid,1984
@@ -62,7 +64,6 @@ Harry Potter 1,Good Movie,,,,,Paid,2001
 Harry Potter 2,Good Movie,,,,,Paid,2002
 Harry Potter 3,Good Movie,,,,,Paid,2004
 Harry Potter 4,Good Movie,,,,,Paid,2005
-Cats and Dogs,Good Movie,,,,,Netflix,2001
 Snatch,Good Movie,Complete,Comedy/Crime,⭐️⭐️⭐️⭐️,"July 30, 2021",Netflix,2000
 Black Dynamite,Good Movie,,Comedy/Action,,,Paid,2009
 Underworld: Rise of the Lycans,Good Movie,Complete,Horror/Action,⭐️⭐️⭐️⭐️,"April 23, 2021",Prime,2009
@@ -71,13 +72,12 @@ The 13th Warror,Good Movie,Complete,Action/Adventure,⭐️⭐️⭐️⭐️,"A
 Starship Troopers,Good Movie,Complete,Sci-fi/Action,⭐️⭐️⭐️⭐️⭐️,"April 30, 2021",Disney+,1997
 Commando,Good Movie,Complete,Action/Thriller,⭐️⭐️⭐️,"July 2, 2021",Disney+,1985
 Con Air,Good Movie,Complete,Action/Thriller,⭐️⭐️⭐️,"April 23, 2021",Disney+,1997
-Rec,Good Movie,,,,,Shudder,2007
 The Lord of the Rings: The Fellowship of the Ring,Good Movie,,A big mess,⭐️,,Tom-Paid,2001
 The Lord of the Rings: The Two Towers,Good Movie,,A big mess,⭐️,,Tom-Paid,2002
 The Lord of the Rings: The Return of the King,Good Movie,,A big mess,⭐️,,Tom-Paid,2003
 Dead Snow,Good Movie,,Horror/Comedy,,,Paid,2009
 Blade: Trinity,Medium Movie,,,,,Paid,2004
-Eurovision Song Contest: The Story of Fire Saga,Medium Movie,,,,,Shudder,2020
+Eurovision Song Contest: The Story of Fire Saga,Medium Movie,,,,,Netflix,2020
 Harry Potter 5,Medium Movie,,,,,Paid,2007
 Harry Potter 6,Medium Movie,,,,,Paid,2009
 Harry Potter 7 part 2,Medium Movie,,,,,Paid,2011
@@ -85,7 +85,7 @@ Harry Potter 7 part 1,Medium Movie,,,,,Paid,2010
 Dredd,Good Movie,Complete,Sci-fi/Action,⭐️⭐️⭐️⭐️,"January 15, 2021",Netflix,2012
 The Purge,Medium Movie,Complete,Horror/Thriller,⭐️⭐️,"May 21, 2021",Netflix,2013
 The Blair Witch Project 1999,Bad_Movie,Complete,"A big mess, Horror/Indie film",⭐️,"February 5, 2021",Prime,1999
-Speed,Medium Movie,,,,,Prime,1994
+Speed,Medium Movie,,,,,Paid,1994
 Reign of Fire,Medium Movie,,,,,Paid,2002
 Blade,Medium Movie,,,,,Paid,1998
 Death Race,Medium Movie,,,,,Paid,2008
@@ -128,18 +128,20 @@ The Princess Bride,Good Movie,Complete,Adventure/Romance,⭐️⭐️⭐️⭐�
 Cluedo Movie,Good Movie,Complete,Mystery/Crime,⭐️⭐️⭐️⭐️⭐️,"February 12, 2021",Prime,1985
 Dune,Medium Movie,Complete,Sci-fi/Action,⭐️⭐️⭐️,"February 6, 2021",Prime,1984
 Shark Attack 3,To be decided,,,,,Paid,2002
-Outcast,To be decided,,Action/Adventure,,,Netflix,2014
+Outcast,Bad_Movie,Complete,Action/Adventure,⭐️⭐️,"September 10, 2021",Netflix,2014
 BrightBurn,Medium Movie,Complete,Horror/Sci-fi,⭐️⭐️⭐️,"June 25, 2021",Netflix,2019
 Poseidon,Medium Movie,Complete,Adventure/Action,⭐️⭐️,"August 13, 2021",Netflix,2006
-Big lebowski,To be decided,,Comedy/Crime,,,Netflix,1998
+Big lebowski,Medium Movie,This week,Comedy/Crime,⭐️⭐️⭐️,"September 24, 2021",Netflix,1998
 The Babysitter: Killer Queen,Medium Movie,Complete,MAX,⭐️⭐️⭐️,"August 13, 2021",Netflix,2020
-Enter the Warriors gate,To be decided,,Action/Fantasy,,,Netflix,2016
-The Cable Guy,To be decided,,,,,Netflix,
+Enter the Warriors gate,Bad_Movie,Complete,Action/Fantasy,⭐️⭐️,"September 24, 2021",Netflix,2016
+The Cable Guy,To be decided,,,,,Netflix,1996
 Dark Tide,To be decided,,,,,Paid,2012
+Safe House,To be decided,,,,,Netflix,2012
+Jiujitsu,To be decided,,,,,Netflix,2020
 Bill & Ted's Bogus Journey,To be decided,,,,,Prime,1991
 Redline,To be decided,,,,,Prime,2009
 Help I'm a fish,To be decided,,,,,Prime,2000
-The Founder,To be decided,,,,,Prime,2016
+The Founder,Good Movie,Complete,,⭐️⭐️⭐️⭐️,"September 17, 2021",Prime,2016
 Point Break,Medium Movie,Complete,Action/Thriller,⭐️⭐️⭐️⭐️,"June 4, 2021",Prime,1991
 Wrong Turn,To be decided,,Horror/Thriller,,,Prime,2001
 Grosse Pointe Blank,Good Movie,Complete,Romance/Comedy,⭐️⭐️⭐️⭐️,"March 20, 2021",Disney+,1997
@@ -157,8 +159,10 @@ Chappie,To be decided,,Sci-fi/Action,,,Paid,2015
 GhostBusters,Medium Movie,Complete,Comedy/Sci-fi,⭐️⭐️⭐️,"July 9, 2021",Prime,2016
 War of the Worlds,To be decided,,Sci-fi/Action,,,Paid,2005
 Heat director's definitive edition,To be decided,,Crime/Action,,,Prime,1995
-The Wolfman,To be decided,,Horror/Thriller,,,Prime,2010
+The Wolfman,Medium Movie,Complete,Horror/Thriller,⭐️⭐️,"September 10, 2021",Prime,2010
 Legend,To be decided,,,,,Prime,1985
+Original Django,To be decided,,,,,Prime,1966
+Snowpiercer,To be decided,,,,,Prime,2013
 The Fly,To be decided,,Horror/Sci-fi,,,Disney+,1986
 Avatar,Good Movie,Complete,Sci-fi/Action,⭐️⭐️⭐️⭐️,"July 30, 2021",Disney+,2009
 The League of Extraordinary Gentlemen,Bad_Movie,Complete,Action/Fantasy,⭐️⭐️,"September 3, 2021",Disney+,2003
@@ -169,12 +173,14 @@ Sunshine,To be decided,,Sci-fi/Adventure,,,Disney+,2007
 The Thin Red Line,Good Movie,Complete,War/Drama,⭐️⭐️⭐️⭐️,"July 23, 2021",Disney+,1998
 Surrogates,Medium Movie,Complete,Sci-fi/Action,⭐️⭐️⭐️,"June 25, 2021",Disney+,2009
 Battle for Endor,To be decided,,,,,Disney+,1985
+Star Wars Terrifying Tales,To be decided,,,,,Disney+,2021
 The Mortuary Collection,To be decided,,Horror,,,Shudder,2019
 Birdcage,Good Movie,Complete,Comedy/LGBT,⭐️⭐️⭐️⭐️,"April 16, 2021",MGM,1996
 Magnificent Seven,Good Movie,Complete,Western/Thriller,⭐️⭐️⭐️⭐️⭐️,"April 16, 2021",MGM,1960
 Drive Angry,To be decided,,Action/Thriller,,,StarzPlay,2011
-Original Django,To be decided,,,,,Prime,1966
 What we do in the Shadows,To be decided,,Horror/Comedy,,,BFI Player,2014
+Kong Skull Island,Good Movie,Complete,,⭐️⭐️⭐️⭐️,"September 17, 2021",Netflix,2017
+Godzilla: King of the Monsters,Good Movie,Complete,,⭐️⭐️⭐️⭐️,"September 18, 2021",Prime,2019
 Cooties,Medium Movie,Complete,,⭐️⭐️⭐️,"September 3, 2021",Prime,2015
 "The hateful eight ",To be decided,,,,,Paid,2019
 Legend,Good Movie,Complete,,⭐️⭐️⭐️⭐️,"August 27, 2021",Prime,2015
@@ -216,12 +222,17 @@ Army of the Dead,Medium Movie,Complete,Horror/Action,⭐️⭐️⭐️,"May 21,
 John Carter,Good Movie,Complete,Sci-fi/Action,⭐️⭐️⭐️⭐️⭐️,"June 11, 2021",Disney+,2012
 Dracula Untold,Good Movie,Complete,Horror/Action,⭐️⭐️⭐️⭐️,"June 18, 2021",Netflix,2014
 WALL-E,Good Movie,Complete,Family/Comedy,⭐️⭐️⭐️⭐️⭐️,"July 2, 2021",Disney+,2008
-Caravan of Courage: An Ewok Adventure,Medium Movie,Complete,Fantasy/Sci-fi,⭐️⭐️,"July 9, 2021",Disney+,
+Caravan of Courage: An Ewok Adventure,Medium Movie,Complete,Fantasy/Sci-fi,⭐️⭐️,"July 9, 2021",Disney+,1984
 Blood Diamond,Good Movie,Complete,,⭐️⭐️⭐️⭐️⭐️,"July 16, 2021",Prime,2006
 District 9,Medium Movie,Complete,Sci-fi/Action,⭐️⭐️⭐️⭐️,"July 16, 2021",Netflix,2009
 Enders Game,Medium Movie,Complete,Sci-fi/Action,⭐️⭐️⭐️,"July 9, 2021",Netflix,2013
 Epic Movie,Bad_Movie,Complete,,⭐️⭐️,"July 16, 2021",Netflix,2007
 Dad's Army,Medium Movie,Complete,,⭐️⭐️⭐️,"July 23, 2021",Netflix,2016
 Cockneys vs Zombies,Medium Movie,Complete,Horror/Comedy,⭐️⭐️⭐️,"July 30, 2021",Netflix,2012
-The Tomorrow War,Good Movie,Complete,,⭐️⭐️⭐️⭐️,"August 27, 2021",Prime,
-Aliens,Good Movie,Complete,,⭐️⭐️⭐️⭐️,"August 20, 2021",Disney+,
+Aliens,Good Movie,Complete,,⭐️⭐️⭐️⭐️,"August 20, 2021",Disney+,1986
+The Tomorrow War,Good Movie,Complete,,⭐️⭐️⭐️⭐️,"August 27, 2021",Prime,2021
+Homefront,Medium Movie,Complete,,⭐️⭐️⭐️,"September 10, 2021",Netflix,2013
+Godzilla,To be decided,,,,,Paid,2014
+Godzilla vs Kong,To be decided,,,,,Paid,2021
+Hook,To be decided,,,,,Netflix,1991
+Paddington,To be decided,,,,,Netflix,2014

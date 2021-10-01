@@ -48,7 +48,7 @@ def find_platform(url):
         return url
     
     striped_url = str(strip_url(url))
-    #print("Strips" +striped_url + " "+  str(type(striped_url)))
+   #print("Strips" +striped_url + " "+  str(type(striped_url)))
    
     if striped_url == 'amazon':
         return "prime"
@@ -56,6 +56,8 @@ def find_platform(url):
         return "channel 4"
     elif striped_url == "bbc":
         return "iplayer"
+    elif striped_url == "disneyplus":
+        return "disney+"
 
     return striped_url
     #results = [element for element in platforms if (element in url)]
@@ -138,7 +140,7 @@ def check_csv_list(compare=False, ignore=False):
 
         if str(df.Location[index]).lower() != platform:
             if platform == "no results" and ignore == False:
-                sentence = f"{movie} {year} has {platform.upper()}"
+                sentence = (Fore.RED + f"{movie} {year} has {platform.upper()}")
             elif platform != "no results":
                 sentence = (
                     Fore.GREEN
